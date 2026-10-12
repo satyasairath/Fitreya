@@ -11,7 +11,7 @@ data stays on your device, and the app does not collect it.
 All the information you enter or that the app records — your food log, meals and
 macros, workouts, runs, walks, cycling, strength sessions, water intake, weight,
 blood pressure, lab results, training plans and personal bests — is stored only
-on your iPhone. It is not uploaded to any server, and the developer never
+on your on your device. It is not uploaded to any server, and the developer never
 receives it or has any way to see it.
 
 ## No accounts, no collection, no tracking
@@ -33,7 +33,7 @@ health and fitness and for no other purpose.
 
 ## Internet connections
 
-The app connects to the internet only for two optional features you choose to
+The app connects to the internet only for a few optional features you choose to
 use:
 
 - **Barcode food lookup**, which queries the public Open Food Facts database for
