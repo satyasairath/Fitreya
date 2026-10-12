@@ -1,6 +1,6 @@
 # Privacy Policy — Fitreya
 
-_Last updated: 9 October 2026_
+_Last updated: 12 October 2026_
 
 Fitreya is a personal fitness and nutrition app. This policy explains, in
 plain terms, what the app does with your information. The short version: your
@@ -24,7 +24,7 @@ receives it or has any way to see it.
 
 ## Apple Health
 
-With your permission, Fitreya reads information from Apple Health — such as
+With your permission, Fitreya reads information from, and saves what you log (such as food and water) to, Apple Health — such as
 workouts, heart rate, steps and weight — only to show you your own fitness
 information inside the app. This data is used on your device and is never
 transmitted. You can grant or withdraw this permission at any time in the iOS
@@ -41,7 +41,7 @@ use:
   data is included.
 - **Importing activities** from services you connect yourself, such as Strava,
   using your own authorisation.
-
+- **Maps**, when you view a route or place a tennis court. Map images are loaded from Apple Maps (iPhone) or OpenStreetMap-based tiles (Android) for the area shown. Your saved routes and courts stay on your device.
 No other data leaves your device.
 
 ## Crash reports
@@ -70,4 +70,4 @@ new date.
 ## Contact
 
 For any questions about this policy or the app, contact:
-**satyasai.rath@gmail.com**
+**fit.atreya@gmail.com**
