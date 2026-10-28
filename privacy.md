@@ -112,7 +112,9 @@ Nothing else is sent.
 Apple's TestFlight shares some information with the developer: your name or email address as invited, when
 you install the app, crash reports, and any feedback or screenshots you choose to send. This is handled by
 Apple under the [TestFlight terms](https://www.apple.com/legal/internet-services/itunes/testflight/sren/terms.html).
-Fitreya itself adds nothing to it.
+Fitreya itself adds nothing to it. The developer copies the crash reports, screenshots and comments you send
+through TestFlight or Google Play to their own computer, where they are kept to fix problems and are read with
+the help of an AI assistant (Anthropic's Claude); ask fit.atreya@gmail.com to have yours deleted.
 
 ## Fitreya for Android
 
@@ -197,6 +199,9 @@ that email yourself, and then it is an ordinary email.
 Google Play shares some information with the developer: your email address if you join the testing, install
 statistics, and crash and "app not responding" reports from phones whose owners allow usage and diagnostics
 sharing with Google. This is handled by Google under Google Play's terms. Fitreya itself adds nothing to it.
+The developer copies the crash reports, screenshots and comments you send through TestFlight or Google Play to
+their own computer, where they are kept to fix problems and are read with the help of an AI assistant
+(Anthropic's Claude); ask fit.atreya@gmail.com to have yours deleted.
 
 ## Deleting your data
 
