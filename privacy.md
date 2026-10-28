@@ -1,6 +1,6 @@
 # Fitreya privacy policy
 
-_Last updated: 15 October 2026_
+_Last updated: 28 October 2026_
 
 Fitreya is a food, workout and health-records tracker for iPhone and Android. It is shared with a small group
 of friends through Apple's TestFlight and Google Play's internal testing. **Everything you enter is stored only on
@@ -57,9 +57,10 @@ backups are controlled by you and Apple.
 With your permission, Fitreya reads workouts (with their routes, laps and segments, and the running form,
 power and cadence an Apple Watch records), steps, flights climbed, heart rate, active energy, blood pressure and blood
 glucose from Apple Health. It writes the energy, protein, carbs, fat and fibre of meals you log, and the blood
-pressure, pulse and glucose readings you enter. You can change these permissions at any time in
-Settings › Health › Data Access & Devices › Fitreya. Health data is never used for advertising or shared
-with anyone.
+pressure, pulse and glucose readings you enter. You can change or turn off these permissions at any time in
+Settings › Apps › Health › Data Access & Devices › Fitreya, or from your profile in the Health app. Use
+Change Access to choose what Fitreya can read and write, or Turn Off All to stop it entirely. Health data is
+never used for advertising or shared with anyone.
 
 ## Location and motion
 
@@ -74,10 +75,13 @@ images from Apple like the Maps app does.
 
 Share cards are images Fitreya draws on your iPhone. Nothing is shared unless you choose an app in the
 share sheet or tap Save to Photos (which only adds the picture to your library; Fitreya can't read your
-photos). Weight, body measurements and health readings are left off cards unless you turn them on. Photos
-are picked with Apple's photo picker, which gives Fitreya only the photo you choose, not your library; the
-camera is used only when you tap Take photo. A shared card is a freshly drawn picture: it carries none of
-the original photo's location or camera details.
+photos). A card you save to Photos may sync to iCloud Photos if you have that turned on, and health figures
+(weight, body fat and BMI, blood pressure, glucose and lab values) appear on a card only when you switch them
+on; calories and heart rate are on by default. A card's route map is also on by default and can show where
+the activity started, such as your home; to leave it out, switch off "Route map" under "Show on the card" on
+the share screen (Fitreya remembers the choice). Photos are picked with Apple's photo picker, which gives
+Fitreya only the photo you choose, not your library; the camera is used only when you tap Take photo. A shared
+card is a freshly drawn picture: it carries none of the original photo's location or camera details.
 
 ## Apple Intelligence
 
@@ -165,7 +169,7 @@ installation (for Gemini Nano features also user, device or other identifiers), 
 step took, its settings and any error codes; for the barcode scanner also the zoom steps and where the barcode
 was in the frame. It is sent over an encrypted connection, and Google says it doesn't pass it on to third
 parties; see [Google's ML Kit data disclosure](https://developers.google.com/ml-kit/android-data-disclosure).
-If you download the Gemini Nano model (Settings › On-device AI), Google's AICore service downloads it.
+If you download the Gemini Nano model (Settings › Privacy & app › On-device AI), Google's AICore service downloads it.
 
 ### Share cards
 
