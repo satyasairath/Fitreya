@@ -1,6 +1,6 @@
 # Fitreya privacy policy
 
-_Last updated: 28 October 2026_
+_Last updated: 29 October 2026_
 
 Fitreya is a food, workout and health-records tracker for iPhone and Android. It is shared with a small group
 of friends through Apple's TestFlight and Google Play's internal testing. **Everything you enter is stored only on
@@ -23,7 +23,9 @@ else. Only these leave your phone, and each is described in the sections below:
   data.
 - **Strava**, only if you connect your own Strava account: Fitreya signs in and reads your activities.
 - **Feedback emails**, only if you write one: "Send feedback" opens your own email app, and you choose whether to
-  send it.
+  send it. Emails to fit.atreya@gmail.com (a Gmail address, so Google also stores them) are copied to the
+  developer's computer, where they are kept to fix problems and are read with the help of an AI assistant
+  (Anthropic's Claude), and they may get an automatic reply; ask that address to have yours deleted.
 - **"Open in Maps"** (iPhone), only when you tap it: that one location opens in Apple Maps or Google Maps.
 - **Downloading the on-device AI model** (Android), only if you tap Download: Google's AICore service downloads it.
 
@@ -192,7 +194,8 @@ the feature:
 - **OpenFreeMap**, for maps, as above.
 
 **Send feedback** opens your own email app with Fitreya's address filled in; nothing is sent unless you send
-that email yourself, and then it is an ordinary email.
+that email yourself, and then it is an ordinary email. Like every email to that address, it is kept on the
+developer's computer and read with the help of Anthropic's Claude (see "What leaves your phone").
 
 ### Google Play testing
 
