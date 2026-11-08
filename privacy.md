@@ -1,6 +1,6 @@
 # Fitreya privacy policy
 
-_Last updated: 29 October 2026_
+_Last updated: 7 November 2026_
 
 Fitreya is a food, workout and health-records tracker for iPhone and Android. It is shared with a small group
 of friends through Apple's TestFlight and Google Play's internal testing. **Everything you enter is stored only on
@@ -79,9 +79,9 @@ Share cards are images Fitreya draws on your iPhone. Nothing is shared unless yo
 share sheet or tap Save to Photos (which only adds the picture to your library; Fitreya can't read your
 photos). A card you save to Photos may sync to iCloud Photos if you have that turned on, and health figures
 (weight, body fat and BMI, blood pressure, glucose and lab values) appear on a card only when you switch them
-on; calories and heart rate are on by default. A card's route map is also on by default and can show where
-the activity started, such as your home; to leave it out, switch off "Route map" under "Show on the card" on
-the share screen (Fitreya remembers the choice). Photos are picked with Apple's photo picker, which gives
+on; calories and heart rate are on by default. A card's route map, which can show where the activity started
+(such as your home), is off unless you switch on "Route map" under "Show on the card" on the share screen;
+Fitreya remembers the choice. Photos are picked with Apple's photo picker, which gives
 Fitreya only the photo you choose, not your library; the camera is used only when you tap Take photo. A shared
 card is a freshly drawn picture: it carries none of the original photo's location or camera details.
 
@@ -179,7 +179,9 @@ If you download the Gemini Nano model (Settings › Privacy & app › On-device 
 
 Share cards are pictures drawn on your phone, shared only when you choose an app in Android's share sheet or tap
 Save to Photos (which saves the picture to Pictures › Fitreya). A shared card is a freshly drawn picture without
-the original photo's location or camera details.
+the original photo's location or camera details. A card's route map, which can show where the activity started
+(such as your home), is off unless you switch on "Route map" under "Show on the card" on the share screen;
+Fitreya remembers the choice.
 
 ### Internet requests
 
