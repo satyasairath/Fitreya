@@ -1,10 +1,9 @@
 # Fitreya privacy policy
 
-_Last updated: 7 November 2026_
+_Last updated: 8 November 2026_
 
-Fitreya is a food, workout and health-records tracker for iPhone and Android. It is shared with a small group
-of friends through Apple's TestFlight and Google Play's internal testing. **Everything you enter is stored only on
-your phone.** There are no accounts, no Fitreya servers, no analytics of our own, no advertising and no tracking. On
+Fitreya is a food, workout and health-records tracker for iPhone and Android, free on the App Store and Google
+Play. **Everything you enter is stored only on your phone.** There are no accounts, no Fitreya servers, no analytics of our own, no advertising and no tracking. On
 Android, Google's ML Kit software inside the app sends Google some diagnostic information about how its
 features run; see [Fitreya for Android](#fitreya-for-android).
 
@@ -21,7 +20,9 @@ else. Only these leave your phone, and each is described in the sections below:
   on-device AI, sends Google diagnostic information about how these features run, such as the phone model, app
   version, a random installation identifier and timings. It contains none of your photos, text, food or health
   data.
-- **Strava**, only if you connect your own Strava account: Fitreya signs in and reads your activities.
+- **Strava**, only if you connect your own Strava account: Fitreya signs in and reads your activities. Strava
+  activities are kept on this phone for 7 days, then Fitreya deletes Strava's copy the next time it runs (what
+  came from Apple Health, Health Connect or an activity file stays); Disconnect deletes everything from Strava.
 - **Feedback emails**, only if you write one: "Send feedback" opens your own email app, and you choose whether to
   send it. Emails to fit.atreya@gmail.com (a Gmail address, so Google also stores them) are copied to the
   developer's computer, where they are kept to fix problems and are read with the help of an AI assistant
@@ -29,8 +30,10 @@ else. Only these leave your phone, and each is described in the sections below:
 - **"Open in Maps"** (iPhone), only when you tap it: that one location opens in Apple Maps or Google Maps.
 - **Downloading the on-device AI model** (Android), only if you tap Download: Google's AICore service downloads it.
 
-Apple's TestFlight and Google Play share some testing information with the developer (see below), and your
-phone's own backup (iCloud or Google), if you have it turned on, includes the app's data under your control.
+Apple and Google share some information with the developer: crash reports and usage statistics only if you allow
+sharing with app developers in your phone's settings, and, if you test a pre-release version, what TestFlight or
+Google Play testing shares (see below). Your phone's own backup (iCloud or Google), if you have it turned on,
+includes the app's data under your control.
 
 The sections up to "Internet requests" describe the iPhone app; the Android app is described in its own section
 below.
@@ -101,22 +104,28 @@ Fitreya contacts only these services, and only when you use the feature:
   sees your IP address; see the [Open Food Facts privacy policy](https://world.openfoodfacts.org/privacy).
 - **Strava**, only if you connect your own Strava account in Settings. Fitreya signs in with the Strava API
   details you enter, then reads your activities with their detail and keeps them in the app's storage on your
-  iPhone, so Workouts can show and analyse them. The API details and Strava's access tokens are stored in your
-  iPhone's Keychain. Nothing is sent to Strava apart from these requests. Disconnecting in Settings revokes the access. See
-  [Strava's privacy policy](https://www.strava.com/legal/privacy).
+  iPhone, so Workouts can show and analyse them. Strava activities are kept on this phone for 7 days, then Fitreya
+  deletes Strava's copy the next time it runs (an activity that also came from Apple Health or an activity file keeps
+  that copy). The API
+  details and Strava's access tokens are stored in your iPhone's Keychain. Nothing is sent to Strava apart from
+  these requests. Disconnecting in Settings revokes the access and deletes everything from Strava on this iPhone.
+  See [Strava's privacy policy](https://www.strava.com/legal/privacy).
 - **Apple Maps or Google Maps**, only when you tap "Open in Maps": that one location opens in the app or
   website you pick, under its own privacy policy.
 
 Nothing else is sent.
 
-## TestFlight
+## The App Store and TestFlight
 
-Apple's TestFlight shares some information with the developer: your name or email address as invited, when
-you install the app, crash reports, and any feedback or screenshots you choose to send. This is handled by
-Apple under the [TestFlight terms](https://www.apple.com/legal/internet-services/itunes/testflight/sren/terms.html).
-Fitreya itself adds nothing to it. The developer copies the crash reports, screenshots and comments you send
-through TestFlight or Google Play to their own computer, where they are kept to fix problems and are read with
-the help of an AI assistant (Anthropic's Claude); ask fit.atreya@gmail.com to have yours deleted.
+Apple shares with the developer the crash reports and usage statistics of the App Store version only if you have
+allowed sharing with app developers (Settings › Privacy & Security › Analytics & Improvements); Fitreya itself
+adds nothing to them. If you test a pre-release version through Apple's TestFlight, TestFlight shares some
+information with the developer: your name or email address as invited, when you install the app, crash reports,
+and any feedback or screenshots you choose to send. This is handled by Apple under the
+[TestFlight terms](https://www.apple.com/legal/internet-services/itunes/testflight/sren/terms.html).
+The developer copies the crash reports, screenshots and comments you send through TestFlight or Google Play to
+their own computer, where they are kept to fix problems and are read with the help of an AI assistant
+(Anthropic's Claude); ask fit.atreya@gmail.com to have yours deleted.
 
 ## Fitreya for Android
 
@@ -191,19 +200,23 @@ the feature:
 - **Open Food Facts**, when you scan a barcode that isn't saved on your phone yet: only the barcode number is
   sent (see the iPhone section above).
 - **Strava**, only if you connect your own Strava account in Settings: Fitreya signs in with the Strava API
-  details you enter and reads your activities, which it keeps on your phone. The API details and access tokens
-  are stored encrypted on your phone. Nothing else is sent to Strava; Disconnect revokes the access.
+  details you enter and reads your activities, which it keeps on your phone for 7 days, then deletes Strava's copy
+  the next time it runs (an activity that also came from Health Connect or an activity file keeps that copy). The
+  API details and access
+  tokens are stored encrypted on your phone. Nothing else is sent to Strava; Disconnect revokes the access and
+  deletes everything from Strava on this phone.
 - **OpenFreeMap**, for maps, as above.
 
 **Send feedback** opens your own email app with Fitreya's address filled in; nothing is sent unless you send
 that email yourself, and then it is an ordinary email. Like every email to that address, it is kept on the
 developer's computer and read with the help of Anthropic's Claude (see "What leaves your phone").
 
-### Google Play testing
+### Google Play
 
-Google Play shares some information with the developer: your email address if you join the testing, install
-statistics, and crash and "app not responding" reports from phones whose owners allow usage and diagnostics
-sharing with Google. This is handled by Google under Google Play's terms. Fitreya itself adds nothing to it.
+Google Play shares some information with the developer: install statistics, and crash and "app not responding"
+reports from phones whose owners allow usage and diagnostics sharing with Google; if you join a test of a
+pre-release version, also your email address. This is handled by Google under Google Play's terms. Fitreya itself
+adds nothing to it.
 The developer copies the crash reports, screenshots and comments you send through TestFlight or Google Play to
 their own computer, where they are kept to fix problems and are read with the help of an AI assistant
 (Anthropic's Claude); ask fit.atreya@gmail.com to have yours deleted.

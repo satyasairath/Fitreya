@@ -1,13 +1,13 @@
 # Fitreya help & FAQ
 
-_Last updated: 31 October 2026_
+_Last updated: 8 November 2026_
 
-Fitreya is a free personal app for tracking food, water, supplements and workouts on iPhone and Android. Your health data stays on your phone. Questions not answered here: [fit.atreya@gmail.com](mailto:fit.atreya@gmail.com).
+Fitreya is a free personal app for tracking food, water, supplements and workouts on iPhone and Android. Your health data stays on your phone. **Support:** [fit.atreya@gmail.com](mailto:fit.atreya@gmail.com), for questions not answered here, problems and suggestions.
 
 ## Getting started
 
 **How do I install Fitreya?**
-Fitreya is in testing. On iPhone it's installed through TestFlight; on Android through Google Play testing. Email [fit.atreya@gmail.com](mailto:fit.atreya@gmail.com) with the kind of phone you use and you'll get the link and short instructions.
+Fitreya is free on the App Store (iPhone) and on Google Play (Android).
 
 **Which phones does it work on?**
 iPhone, and Android 12 or later.
@@ -24,7 +24,7 @@ Fitreya reads steps, active energy, workouts, sleep, weight, resting heart rate,
 Garmin data reaches Fitreya through Apple Health or Health Connect (turn on sharing in the Garmin Connect app), or through Strava if your Garmin uploads there. Garmin's own app decides what it shares and when, so some values can arrive later than on your watch.
 
 **Strava**
-Connect Strava in Fitreya's Settings to import your activities. You can disconnect at any time from the same place. Strava limits how many people a small app like Fitreya can connect; if connecting fails with a capacity message, everything else still works and Apple Health, Health Connect and Garmin still import.
+Connect Strava in Fitreya's Settings to import your activities. You can disconnect at any time from the same place. Strava activities are kept on your phone for 7 days; Disconnect deletes everything from Strava. Strava limits how many people a small app like Fitreya can connect; if connecting fails with a capacity message, everything else still works and Apple Health, Health Connect and Garmin still import.
 
 **The same workout appears in two sources. Is it counted twice?**
 No. When recordings overlap, Fitreya uses the more complete one for time, distance and calories together and says which source it used.
@@ -81,10 +81,10 @@ Fitreya records what you take; it doesn't advise on doses.
 
 The Share button on Today makes a card or story image of your day or a workout. You choose what's on it. Weight, health readings and route maps are off unless you turn them on — a route map can show where you started, such as home. Nothing is shared unless you send it.
 
-## Feedback and problems
+## Support, feedback and problems
 
 **How do I report a problem or suggest something?**
-On iPhone, take a screenshot in the app and choose **Share Beta Feedback** in TestFlight, or email [fit.atreya@gmail.com](mailto:fit.atreya@gmail.com). On Android, email us. Say which phone you use and, if possible, attach a screenshot. Please don't include medical documents or other personal health records.
+Email [fit.atreya@gmail.com](mailto:fit.atreya@gmail.com) (Settings › Privacy & app › Send feedback opens a blank email). Say which phone you use and, if possible, attach a screenshot. Please don't include medical documents or other personal health records.
 
 ## Privacy
 
