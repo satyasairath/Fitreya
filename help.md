@@ -1,6 +1,6 @@
 # Fitreya help & FAQ
 
-_Last updated: 8 November 2026_
+_Last updated: 15 November 2026_
 
 Fitreya is a free personal app for tracking food, water, supplements and workouts on iPhone and Android. Your health data stays on your phone. **Support:** [fit.atreya@gmail.com](mailto:fit.atreya@gmail.com), for questions not answered here, problems and suggestions.
 
@@ -24,7 +24,7 @@ Fitreya reads steps, active energy, workouts, sleep, weight, resting heart rate,
 Garmin data reaches Fitreya through Apple Health or Health Connect (turn on sharing in the Garmin Connect app), or through Strava if your Garmin uploads there. Garmin's own app decides what it shares and when, so some values can arrive later than on your watch.
 
 **Strava**
-Connect Strava in Fitreya's Settings to import your activities. You can disconnect at any time from the same place. Strava activities are kept on your phone for 7 days; Disconnect deletes everything from Strava. Strava limits how many people a small app like Fitreya can connect; if connecting fails with a capacity message, everything else still works and Apple Health, Health Connect and Garmin still import.
+Connect Strava in Fitreya's Settings to import your activities. Before Strava's sign-in page opens, Fitreya shows what it reads and keeps (on your phone only, for 7 days, shown on a share card only when you make one and share it yourself, and never given to the on-device AI) and connects only if you tap Continue. You can disconnect at any time from the same place. Strava activities are kept on your phone for 7 days; Disconnect deletes everything from Strava and shows when it did. Strava limits how many people a small app like Fitreya can connect; if connecting fails with a capacity message, everything else still works and Apple Health, Health Connect and Garmin still import.
 
 **The same workout appears in two sources. Is it counted twice?**
 No. When recordings overlap, Fitreya uses the more complete one for time, distance and calories together and says which source it used.
@@ -63,13 +63,26 @@ Use the water button on Today. The hydration total includes water from drinks an
 ## Workouts
 
 **Recording**
-Fitreya records runs, walks and rides with your phone's GPS. Workouts from your watch or other apps are imported automatically.
+Fitreya records runs, walks and rides with your phone's GPS. Workouts from your watch or other apps are imported automatically. On Android, a recording keeps going with the screen off; if Battery Saver or a battery setting for Fitreya could stop GPS when the screen is off, the Record screen says so, with the way to Fitreya's battery settings.
+
+**Tennis**
+Record tennis on Apple Watch (Workout app) or Garmin; on Android, on your watch (Garmin, Wear OS or Samsung). Fitreya imports it. The court map needs GPS: the positions come from the Garmin .fit file or, on iPhone, from the route a watch app saved to Apple Health with the workout. For the court map from an Apple Watch, record an Outdoor Walk (the Workout app's tennis session saves no route) and open it in Fitreya: "Mark as tennis" (iPhone, under "Recorded as Walk") makes it a tennis session everywhere in Fitreya (Today, Workouts, the cards, the tennis history, with its court map) and takes it out of your walking bests; Apple Health keeps it as a walk; "Not tennis" puts it back. "Place the court" (iPhone): drag the map until the court's outline lies on the real court, pinch to zoom the map under the outline, turn it with the direction slider, then Save; the session's positions are moved onto it, and later sessions played there match it by themselves.
+
+**Why does a workout's card show a different average heart rate from before?**
+Since 1.2 (26) a card shows the average and maximum your watch's app worked out (Apple Health's, Health Connect's, the .fit file's, or the connected service's) whenever it gives one, the same figure Today and the workout's screen show; Fitreya's own time-weighted figure only when it gives none.
+
+**My run is listed twice. / My run is listed once, though two apps recorded it.**
+Since 1.3 (27) a workout that two apps recorded (your watch's app and Garmin Connect, say, or two uploads of one run) is listed once on Today, in Workouts and on the day's card: the copy with heart rate, else the longer one. The other copy is only left off the list, never deleted; if you delete the listed one in Apple Health or Health Connect, the other appears. Two separate workouts close together (a warm-up and a race) stay two.
 
 **Why do time figures differ between apps?**
 Some apps show total (elapsed) time and others moving time, which leaves out pauses. Fitreya labels which one it shows.
 
 **My step count looks too low.**
 Steps come from Apple Health or Health Connect. If your watch's steps don't appear, check that your watch app shares steps with Apple Health or Health Connect.
+
+## Records
+
+On the Records list, a result outside your lab's reference range shows in orange with **High** or **Low** beside it; a test entered in two units charts the latest result's unit and lists the others under "In other units".
 
 ## Supplements
 
@@ -79,7 +92,7 @@ Fitreya records what you take; it doesn't advise on doses.
 
 ## Sharing
 
-The Share button on Today makes a card or story image of your day or a workout. You choose what's on it. Weight, health readings and route maps are off unless you turn them on — a route map can show where you started, such as home. Nothing is shared unless you send it.
+Share is on Today and on every workout's screen; it makes a card or story image of your day or a workout. You choose what's on it. A workout's card has four layouts (on the iPhone since 1.1, on Android since 1.3 (27)): Classic, Photo band (the figures on a band at the bottom, the route's shape small), Route art (the route's shape large, three figures under it; the court for a tennis session) and Corner (a small block in a corner, the photo left clear); the day's cards have Classic, Photo band and Corner on the iPhone. The choice is remembered under "Template". Weight, health readings and route maps are off unless you turn them on — a route map can show where you started, such as home. A workout's card says when it started. A card can include workouts and figures from Strava; the share screen says so when it does, and such a card carries the "Powered by Strava" logo. Nothing is shared unless you send it. On a tennis card (iPhone), "Satellite court picture" (on unless you turn it off) puts the court's satellite picture under the heat map; the request to Apple's map service carries only the map area, never your positions or figures, and the heat map is drawn on your phone. A Strava workout's route or court on a card (iPhone): the first time such a card opens (for a route, when you turn "Route map" on), Fitreya asks "Does your Strava hide the start and end of your activities?"; with "No" the route and the satellite court are drawn as any other workout's; with "Yes" the court drawing only and the route without its start and end (200 m, or the distance set in Settings); with the whole map hidden, or an activity marked "Only You", the court drawing only and no route; closing the question saves nothing, and the answer is the setting "What Strava hides on your maps" under Settings › Strava. A note of your own (up to 50 characters: how it felt, where, the weather) goes under the workout's name or the day's header; it is kept with that workout or day on your phone (a workout's note is deleted with the workout; a day's stays on your phone for 90 days, or until you clear it that day or delete the app), and nothing is drawn when it is empty. On Android, the map shows the whole route with the map's credit, the line is broken where the GPS had a gap, and a track with too many gaps shows no map.
 
 ## Support, feedback and problems
 
