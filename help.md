@@ -1,6 +1,6 @@
 # Fitreya help & FAQ
 
-_Last updated: 15 November 2026_
+_Last updated: 24 November 2026_
 
 Fitreya is a free personal app for tracking food, water, supplements and workouts on iPhone and Android. Your health data stays on your phone. **Support:** [fit.atreya@gmail.com](mailto:fit.atreya@gmail.com), for questions not answered here, problems and suggestions.
 
@@ -74,6 +74,9 @@ Since 1.2 (26) a card shows the average and maximum your watch's app worked out 
 **My run is listed twice. / My run is listed once, though two apps recorded it.**
 Since 1.3 (27) a workout that two apps recorded (your watch's app and Garmin Connect, say, or two uploads of one run) is listed once on Today, in Workouts and on the day's card: the copy with heart rate, else the longer one. The other copy is only left off the list, never deleted; if you delete the listed one in Apple Health or Health Connect, the other appears. Two separate workouts close together (a warm-up and a race) stay two.
 
+**Races** (iPhone, since 1.4 (28))
+Open a workout and tap "Mark as race" on its screen: the race form opens with the workout's date and, when the figures are the phone's own, its sport and distance filled in. A name and a date are enough to save; the rest is the official result as you read it from the results: the place, the chip time and the gun time, your bib, your overall, gender and category positions (with the field's size and the category's name) and the results link (the timing company is named from it, on your phone). Fitreya doesn't fetch results: every figure is typed by you, and nothing is taken from a Strava activity (its form starts with today's date and nothing else). A race you ran without a recording: Workouts › + › "Add race…". A marked workout's rows carry a "Race" badge, and Workouts has a "Races" row under the running section: your races by year, with a distance filter, and "Best official times" above the list (the best chip time at each standard distance; the gun time where there is none, marked so). A race's page shows "Official result" beside "Your recording" (the workout's own figures; tap it to open the workout); "Results" opens the link in a browser inside Fitreya (http and https links only); Edit and Delete are at the bottom of the page. Deleting the workout keeps the race and what you typed (its page then shows the official result alone; a race marked on a Strava activity loses its link to it after Strava's 7 days or at Disconnect); deleting the race keeps the workout. Not on Android yet.
+
 **Why do time figures differ between apps?**
 Some apps show total (elapsed) time and others moving time, which leaves out pauses. Fitreya labels which one it shows.
 
@@ -93,6 +96,10 @@ Fitreya records what you take; it doesn't advise on doses.
 ## Sharing
 
 Share is on Today and on every workout's screen; it makes a card or story image of your day or a workout. You choose what's on it. A workout's card has four layouts (on the iPhone since 1.1, on Android since 1.3 (27)): Classic, Photo band (the figures on a band at the bottom, the route's shape small), Route art (the route's shape large, three figures under it; the court for a tennis session) and Corner (a small block in a corner, the photo left clear); the day's cards have Classic, Photo band and Corner on the iPhone. The choice is remembered under "Template". Weight, health readings and route maps are off unless you turn them on — a route map can show where you started, such as home. A workout's card says when it started. A card can include workouts and figures from Strava; the share screen says so when it does, and such a card carries the "Powered by Strava" logo. Nothing is shared unless you send it. On a tennis card (iPhone), "Satellite court picture" (on unless you turn it off) puts the court's satellite picture under the heat map; the request to Apple's map service carries only the map area, never your positions or figures, and the heat map is drawn on your phone. A Strava workout's route or court on a card (iPhone): the first time such a card opens (for a route, when you turn "Route map" on), Fitreya asks "Does your Strava hide the start and end of your activities?"; with "No" the route and the satellite court are drawn as any other workout's; with "Yes" the court drawing only and the route without its start and end (200 m, or the distance set in Settings); with the whole map hidden, or an activity marked "Only You", the court drawing only and no route; closing the question saves nothing, and the answer is the setting "What Strava hides on your maps" under Settings › Strava. A note of your own (up to 50 characters: how it felt, where, the weather) goes under the workout's name or the day's header; it is kept with that workout or day on your phone (a workout's note is deleted with the workout; a day's stays on your phone for 90 days, or until you clear it that day or delete the app), and nothing is drawn when it is empty. On Android, the map shows the whole route with the map's credit, the line is broken where the GPS had a gap, and a track with too many gaps shows no map.
+
+<!-- Credits, fixed in Build 28 (1.4) and shown on this page and in Settings › About on both phones with Build 29 (BM3), when Breath
+meditation's voice clips ship: "Breath meditation's voice is computer-generated with Kokoro-82M by hexgrad, used under the Apache
+License 2.0. Its training data includes the Koniwa (CC BY 3.0) and SIWIS (CC BY 4.0) speech sets." -->
 
 ## Support, feedback and problems
 

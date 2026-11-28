@@ -1,6 +1,6 @@
 # Fitreya privacy policy
 
-_Last updated: 22 November 2026_
+_Last updated: 24 November 2026_
 
 Fitreya is a food, workout and health-records tracker for iPhone and Android, free on the App Store and Google
 Play. **Everything you enter is stored only on your phone.** There are no accounts, no Fitreya servers, no analytics of our own, no advertising and no tracking. On
@@ -34,6 +34,11 @@ else. Only these leave your phone, and each is described in the sections below:
   developer's computer, where they are kept to fix problems and are read with the help of an AI assistant
   (Anthropic's Claude), and they may get an automatic reply; ask that address to have yours deleted.
 - **"Open in Maps"** (iPhone), only when you tap it: that one location opens in Apple Maps or Google Maps.
+- **A race's results page** (iPhone), only when you tap "Results" on a race's page: the link you typed for that race opens
+  in a browser inside Fitreya, and that site then sees your phone as any browser would (your IP address, the page you
+  asked for). Fitreya itself makes no request to any results site and fetches nothing from one: every figure of a race
+  (its name, date, place, your official time and positions, the link) is typed by you; the timing company's name is
+  worked out on your phone from the link.
 - **Downloading the on-device AI model** (Android), only if you tap Download: Google's AICore service downloads it.
 
 Apple and Google share some information with the developer: crash reports and usage statistics only if you allow
@@ -60,6 +65,7 @@ below.
 | Dictated recipes | Speech is turned into text on the iPhone (Apple's on-device dictation model; iOS downloads the model once); no audio is recorded or kept |
 | A note you type for a share card (how it felt, where, the weather) | In the app's storage on your iPhone, with that workout or day; a workout's is deleted with the workout, a day's stays on this phone for 90 days, or until you clear it that day or delete the app; never written to Apple Health, never given to the on-device AI |
 | A tennis workout's court positions from its Apple Health route | In the app's storage on your iPhone, with the session, until the session is deleted |
+| Races you mark or add (the name, date and place, your official time and positions, the results link, a note; the timing company's name, worked out on your phone from the link), since 1.4 | In the app's storage on your iPhone, typed by you; with the key of the workout you marked, when you marked one. Nothing is copied into a race from Strava, and no new permission or account is asked for. A race stays when the workout it was marked on leaves the phone (its page then shows the official result alone; a race marked on a Strava activity loses its link to it after Strava's 7 days or at Disconnect), until you delete the race |
 
 The developer can't see any of this. It isn't uploaded anywhere by Fitreya. Your lab results, and the reports
 they were read from, are kept on your phone; Fitreya never sends them to the developer or anyone else. A result
@@ -148,6 +154,10 @@ Fitreya contacts only these services, and only when you use the feature:
   (Strava's API Policy §6.5). See [Strava's privacy policy](https://www.strava.com/legal/privacy).
 - **Apple Maps or Google Maps**, only when you tap "Open in Maps": that one location opens in the app or
   website you pick, under its own privacy policy.
+- **A race's results site**, only when you tap "Results" on a race's page (since 1.4): the http or https link you typed
+  opens in a browser inside Fitreya (Apple's in-app Safari view), under that site's own privacy policy; it sees your
+  phone as any browser would. Fitreya sends it nothing but the page request your tap makes and reads nothing back; it
+  never looks up a race or a result on its own.
 
 Nothing else is sent.
 
